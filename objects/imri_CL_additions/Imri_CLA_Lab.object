@@ -1,0 +1,37 @@
+{
+	"objectName" : "Imri_CLA_Lab",
+	"printable" : false,
+	"rarity" : "Common",
+	"description" : "Place directly next to container to connect it to your item network.",
+	"shortdescription" : "Storage Bridge",
+	"race" : "generic",
+
+	"category" : "wire",
+	"price" : 75,
+
+    "animation" : "/objects/kheAA/kheAA_containerLink/kheAA_containerLink.animation",
+	
+	"inventoryIcon" : "/objects/imri_CL_additions/Imri_CLA_Lab.png:default.off",
+	"orientations" : [
+
+		{
+			"imageLayers" : [{"image":"Imri_CLA_Lab.png:default.off","fullbright" : true},{"image":"Imri_CLA_LabFB.png:default.off"}],
+			"imagePosition" : [0, 0],
+            "frames" : 1,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	"animationParts" : {
+		"Itemlink" : "Imri_CLA_Lab.png"
+	},
+	"animationPosition" : [0, 0],
+
+	"scripts" : [ "/objects/kheAA/kheAA_containerLink/kheAA_containerLink.lua" ],
+	"scriptDelta" : 5,
+
+	"inputNodes" : [[0,0]],
+	"outputNodes" : [[1,0]],
+
+	"interval" : 5
+}

@@ -1,0 +1,5 @@
+[
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "Imri_CLA_Lab"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "imri_indtank"} },
+	{ "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "imri_astrotank"} }
+]

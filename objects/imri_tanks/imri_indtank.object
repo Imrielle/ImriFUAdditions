@@ -1,0 +1,43 @@
+{
+  "objectName" : "imri_indtank",
+  "colonyTags" : ["storage","commerce"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "A tank filled with an unknown substance. Probably very lethal.",
+  "shortdescription" : "Industrial Tank",
+  "race" : "generic",
+  "price" : 140,
+  "health" : 1.5,
+
+  "apexDescription" : "A large tank. Is there something inside?",
+  "avianDescription" : "I'm sure I can hear liquid inside.",
+  "floranDescription" : "Floran puzzled by large drink.",
+  "glitchDescription" : "Neutral. Liquid is stored inside this tank.",
+  "humanDescription" : "I bet a lot of fluid is in here. Cool.",
+  "hylotlDescription" : "There is a float inside, knocking against the tank wall.",
+  "novakidDescription" : "Looks like somethin' is inside this, whiskey maybe.",
+
+  "inventoryIcon" : "imri_indtankicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "imri_indtank.png:default",
+      
+	  "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "collision" : "platform",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+	  
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metaldoor_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

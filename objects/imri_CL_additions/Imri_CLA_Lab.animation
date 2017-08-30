@@ -1,0 +1,89 @@
+{
+	"animatedParts" : {
+		"stateTypes" : {
+			"Itemlink" : {
+				"default" : "off",
+				"states" : {
+					"off" : {
+						"frames" : 1
+					},
+					"down" : {
+						"frames" : 1
+					},
+					"up" : {
+						"frames" : 1
+					},
+					"both" : {
+						"frames" : 1
+					}
+				}
+			}
+		},
+
+		"parts" : {
+			"ItemlinkState" : {
+				"properties" : {
+					"centered" : false
+				},
+
+				"partStates" : {
+					"Itemlink" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:default.off"
+							}
+						},
+						"down" : {
+							"properties" : {
+								"image" : "<partImage>:default.down"
+							}
+						},
+						"up" : {
+							"properties" : {
+								"image" : "<partImage>:default.up"
+							}
+						},
+
+						"both" : {
+							"properties" : {
+								"image" : "<partImage>:default.both"
+							}
+						}
+					}
+				}
+			},
+			"ItemlinkStatefullbright" : {
+				"properties" : {
+					"centered" : false,
+					"zLevel" : 1
+				},
+
+				"partStates" : {
+					"Itemlink" : {
+						"off" : {
+							"properties" : {
+								"image" : "<partImage>:default.off"
+							}
+						},
+						"down" : {
+							"properties" : {
+								"image" : "<partImage>:default.down"
+							}
+						},
+						"up" : {
+							"properties" : {
+								"image" : "<partImage>:default.up"
+							}
+						},
+
+						"both" : {
+							"properties" : {
+								"image" : "<partImage>:default.both"
+							}
+						}
+					}
+				}
+			}			
+		}
+	}
+}
